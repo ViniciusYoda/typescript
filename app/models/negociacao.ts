@@ -14,5 +14,13 @@ export class Negociacao {
       const data = new Date(this._data.getTime());
       return data;
    }
+
+   get quantidade(): number {
+      return this._quantidade;
+   }
+
+   get valor(): number {
+      return this._valor
+   }
 }
 
